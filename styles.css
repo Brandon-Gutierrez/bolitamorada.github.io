@@ -1,0 +1,104 @@
+body {
+    font-family: 'Comic Sans MS', 'Comic Sans', cursive;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background-color: #4a00e0;
+    background-image: linear-gradient(315deg, #4a00e0 0%, #8a2be2 74%);
+    color: white;
+    padding: 20px 0;
+}
+
+.logo {
+    width: 300px; /* Aumenta el tamaño del logo */
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+h1 {
+    font-family: 'Comic Sans MS', 'Comic Sans', cursive; /* Tipografía juvenil e informal */
+    margin: 10px 0;
+}
+
+main {
+    padding: 20px;
+}
+
+h2 {
+    color: #4a00e0;
+}
+
+.presentation {
+    background-color: white;
+    margin: 10px auto;
+    padding: 20px;
+    border-radius: 8px;
+    width: 90%;
+    max-width: 400px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.presentation-img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.price {
+    font-size: 1.2em;
+    color: #4a00e0;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #4a00e0;
+    background-image: linear-gradient(315deg, #4a00e0 0%, #8a2be2 74%);
+    color: white;
+    padding: 20px 0;
+}
+
+.social-buttons a {
+    margin: 0 10px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.social-icon {
+    width: 40px;
+    height: 40px;
+}
+
+.whatsapp-button {
+    margin-top: 20px;
+}
+
+.whatsapp-button a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #25d366;
+}
+
+.whatsapp-button a:hover {
+    background-color: #1ebe57;
+}
+
+@media (max-width: 600px) {
+    .presentation {
+        width: 100%;
+        padding: 15px;
+    }
+    .social-buttons a {
+        margin-bottom: 10px;
+    }
+    .social-buttons, .whatsapp-button {
+        text-align: center;
+    }
+}
